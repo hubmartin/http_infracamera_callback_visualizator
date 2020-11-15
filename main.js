@@ -5,7 +5,10 @@ var io = require('socket.io')(http);
 
 /*
 curl -X POST -H "Content-Type: application/json" --data @payload.json localhost:3010/post
+pm2 start main.js --watch
 */
+
+var lastMsg = null;
 
 app.use(bodyParser.json());
 
@@ -15,6 +18,14 @@ app.get('/', (req, res) => {
 
 io.on('connection', (socket) => {
     console.log('a user connected');
+    
+    // Send last data
+    if (lastMsg !== null)
+    {
+      console.log("We have lastMsg, send it");
+      io.emit("infrared", lastMsg);
+    }
+
     socket.on('disconnect', () => {
       console.log('user disconnected');
     });
@@ -32,6 +43,7 @@ io.on('connection', (socket) => {
 app.post('/post', (req, res) => {
     console.log('Got body:', req.body);
     io.emit('infrared', req.body);
+    lastMsg = req.body;
     res.sendStatus(200);
 });
 

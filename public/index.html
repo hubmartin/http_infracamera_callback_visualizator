@@ -17,7 +17,8 @@
       $(function () {
         var socket = io();
         socket.on('infrared', function(msg){
-          samples = msg.sensor.thermometer1.samples;
+          console.log(msg);
+          samples = msg.data.sensor.thermometer1.samples;
           console.log(samples);
           var i = 0;
           for (var k in samples) {

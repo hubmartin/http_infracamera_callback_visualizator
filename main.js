@@ -1,4 +1,5 @@
-var app = require('express')();
+var express = require('express');
+var app = express();
 var bodyParser = require('body-parser')
 var http = require('http').createServer(app);
 var io = require('socket.io')(http);
@@ -11,10 +12,7 @@ pm2 start main.js --watch
 var lastMsg = null;
 
 app.use(bodyParser.json());
-
-app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/public/index.html');
-});
+app.use(express.static('public'));
 
 io.on('connection', (socket) => {
     console.log('a user connected');

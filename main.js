@@ -6,7 +6,7 @@ var io = require('socket.io')(http);
 
 /*
 curl -X POST -H "Content-Type: application/json" --data @payload.json localhost:3010/post
-pm2 start main.js --watch
+pm2 start main.js --name infra_http --watch
 */
 
 var lastMsg = null;

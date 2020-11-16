@@ -5,7 +5,7 @@ var http = require('http').createServer(app);
 var io = require('socket.io')(http);
 
 /*
-curl -X POST -H "Content-Type: application/json" --data @payload.json localhost:3010/post
+curl -X POST -H "Content-Type: application/json" --data @payload1.json localhost:3010/post
 pm2 start main.js --name infra_http --watch
 */
 

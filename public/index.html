@@ -21,7 +21,7 @@
         socket.on('infrared', function(msg){
           console.log(msg);
           samples = msg.data.sensor.infrared.temperature.samples;
-          console.log(samples);
+          //console.log(samples);
           var i = 0;
           for (var k in samples) {
             value = samples[k];

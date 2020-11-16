@@ -3,6 +3,7 @@ var app = express();
 var bodyParser = require('body-parser')
 var http = require('http').createServer(app);
 var io = require('socket.io')(http);
+var port = process.env.PORT || 3000;
 
 /*
 curl -X POST -H "Content-Type: application/json" --data @payload1.json localhost:3010/post
@@ -45,6 +46,6 @@ app.post('/post', (req, res) => {
     res.sendStatus(200);
 });
 
-http.listen(3010, () => {
-  console.log('listening on *:3010');
+http.listen(port, () => {
+  console.log('listening on *:' + port);
 });

@@ -1,8 +1,9 @@
 {
     "data":
     {
+      
         "frame": {
-          "sequence": 11,
+          "sequence": 9,
           "protocol": 2
         },
         "device": {
@@ -13,14 +14,14 @@
         "network": {
           "imsi": 901288001061706,
           "statistics": {
-            "spr": -72,
+            "spr": -76,
             "tpr": 0,
-            "txp": 60,
+            "txp": 90,
             "txt": 0,
             "rxt": 0,
             "cid": 939040,
             "ecl": 0,
-            "snr": 22,
+            "snr": 21,
             "efn": 6447,
             "pci": 347,
             "rsr": -6
@@ -31,795 +32,232 @@
           "contact1": false
         },
         "battery": {
-          "voltage1": 4.515,
+          "voltage1": 4.494,
           "voltage2": 0
         },
         "sensor": {
-          "thermometer1": {
-            "temperature": 24.22,
-            "samples": [
-              {
-                "timestamp": 0,
-                "temperature": 23.21
-              },
-              {
-                "timestamp": 1,
-                "temperature": 22.97
-              },
-              {
-                "timestamp": 2,
-                "temperature": 23.46
-              },
-              {
-                "timestamp": 3,
-                "temperature": 23.02
-              },
-              {
-                "timestamp": 4,
-                "temperature": 23.09
-              },
-              {
-                "timestamp": 5,
-                "temperature": 23.03
-              },
-              {
-                "timestamp": 6,
-                "temperature": 23.27
-              },
-              {
-                "timestamp": 7,
-                "temperature": 23.66
-              },
-              {
-                "timestamp": 8,
-                "temperature": 24.44
-              },
-              {
-                "timestamp": 9,
-                "temperature": 24.6
-              },
-              {
-                "timestamp": 10,
-                "temperature": 23.35
-              },
-              {
-                "timestamp": 11,
-                "temperature": 23.78
-              },
-              {
-                "timestamp": 12,
-                "temperature": 24.75
-              },
-              {
-                "timestamp": 13,
-                "temperature": 25.8
-              },
-              {
-                "timestamp": 14,
-                "temperature": 25.63
-              },
-              {
-                "timestamp": 15,
-                "temperature": 25.45
-              },
-              {
-                "timestamp": 16,
-                "temperature": 23.29
-              },
-              {
-                "timestamp": 17,
-                "temperature": 23.49
-              },
-              {
-                "timestamp": 18,
-                "temperature": 23.42
-              },
-              {
-                "timestamp": 19,
-                "temperature": 23.02
-              },
-              {
-                "timestamp": 20,
-                "temperature": 22.94
-              },
-              {
-                "timestamp": 21,
-                "temperature": 23.04
-              },
-              {
-                "timestamp": 22,
-                "temperature": 23.26
-              },
-              {
-                "timestamp": 23,
-                "temperature": 23.47
-              },
-              {
-                "timestamp": 24,
-                "temperature": 25.1
-              },
-              {
-                "timestamp": 25,
-                "temperature": 25.03
-              },
-              {
-                "timestamp": 26,
-                "temperature": 23.75
-              },
-              {
-                "timestamp": 27,
-                "temperature": 23.9
-              },
-              {
-                "timestamp": 28,
-                "temperature": 24.81
-              },
-              {
-                "timestamp": 29,
-                "temperature": 25.98
-              },
-              {
-                "timestamp": 30,
-                "temperature": 26.07
-              },
-              {
-                "timestamp": 31,
-                "temperature": 25.42
-              },
-              {
-                "timestamp": 32,
-                "temperature": 23.11
-              },
-              {
-                "timestamp": 33,
-                "temperature": 22.97
-              },
-              {
-                "timestamp": 34,
-                "temperature": 23.26
-              },
-              {
-                "timestamp": 35,
-                "temperature": 23.21
-              },
-              {
-                "timestamp": 36,
-                "temperature": 22.95
-              },
-              {
-                "timestamp": 37,
-                "temperature": 23.03
-              },
-              {
-                "timestamp": 38,
-                "temperature": 23.17
-              },
-              {
-                "timestamp": 39,
-                "temperature": 23.59
-              },
-              {
-                "timestamp": 40,
-                "temperature": 25.27
-              },
-              {
-                "timestamp": 41,
-                "temperature": 25.35
-              },
-              {
-                "timestamp": 42,
-                "temperature": 23.81
-              },
-              {
-                "timestamp": 43,
-                "temperature": 23.49
-              },
-              {
-                "timestamp": 44,
-                "temperature": 24.33
-              },
-              {
-                "timestamp": 45,
-                "temperature": 25.42
-              },
-              {
-                "timestamp": 46,
-                "temperature": 26.13
-              },
-              {
-                "timestamp": 47,
-                "temperature": 26.15
-              },
-              {
-                "timestamp": 48,
-                "temperature": 23.04
-              },
-              {
-                "timestamp": 49,
-                "temperature": 23.12
-              },
-              {
-                "timestamp": 50,
-                "temperature": 23.3
-              },
-              {
-                "timestamp": 51,
-                "temperature": 22.7
-              },
-              {
-                "timestamp": 52,
-                "temperature": 22.92
-              },
-              {
-                "timestamp": 53,
-                "temperature": 22.95
-              },
-              {
-                "timestamp": 54,
-                "temperature": 23.31
-              },
-              {
-                "timestamp": 55,
-                "temperature": 23.6
-              },
-              {
-                "timestamp": 56,
-                "temperature": 24.89
-              },
-              {
-                "timestamp": 57,
-                "temperature": 25.69
-              },
-              {
-                "timestamp": 58,
-                "temperature": 23.89
-              },
-              {
-                "timestamp": 59,
-                "temperature": 23.64
-              },
-              {
-                "timestamp": 60,
-                "temperature": 24.21
-              },
-              {
-                "timestamp": 61,
-                "temperature": 24.94
-              },
-              {
-                "timestamp": 62,
-                "temperature": 26.43
-              },
-              {
-                "timestamp": 63,
-                "temperature": 26.97
-              },
-              {
-                "timestamp": 64,
-                "temperature": 23
-              },
-              {
-                "timestamp": 65,
-                "temperature": 22.73
-              },
-              {
-                "timestamp": 66,
-                "temperature": 23.23
-              },
-              {
-                "timestamp": 67,
-                "temperature": 23.17
-              },
-              {
-                "timestamp": 68,
-                "temperature": 22.78
-              },
-              {
-                "timestamp": 69,
-                "temperature": 23.04
-              },
-              {
-                "timestamp": 70,
-                "temperature": 23.1
-              },
-              {
-                "timestamp": 71,
-                "temperature": 23.55
-              },
-              {
-                "timestamp": 72,
-                "temperature": 24.88
-              },
-              {
-                "timestamp": 73,
-                "temperature": 26.01
-              },
-              {
-                "timestamp": 74,
-                "temperature": 24.31
-              },
-              {
-                "timestamp": 75,
-                "temperature": 23.66
-              },
-              {
-                "timestamp": 76,
-                "temperature": 23.75
-              },
-              {
-                "timestamp": 77,
-                "temperature": 24.76
-              },
-              {
-                "timestamp": 78,
-                "temperature": 26.35
-              },
-              {
-                "timestamp": 79,
-                "temperature": 27.35
-              },
-              {
-                "timestamp": 80,
-                "temperature": 23.16
-              },
-              {
-                "timestamp": 81,
-                "temperature": 22.94
-              },
-              {
-                "timestamp": 82,
-                "temperature": 23.1
-              },
-              {
-                "timestamp": 83,
-                "temperature": 23.06
-              },
-              {
-                "timestamp": 84,
-                "temperature": 22.81
-              },
-              {
-                "timestamp": 85,
-                "temperature": 22.81
-              },
-              {
-                "timestamp": 86,
-                "temperature": 23.03
-              },
-              {
-                "timestamp": 87,
-                "temperature": 23.38
-              },
-              {
-                "timestamp": 88,
-                "temperature": 24.88
-              },
-              {
-                "timestamp": 89,
-                "temperature": 25.7
-              },
-              {
-                "timestamp": 90,
-                "temperature": 24.32
-              },
-              {
-                "timestamp": 91,
-                "temperature": 23.74
-              },
-              {
-                "timestamp": 92,
-                "temperature": 23.62
-              },
-              {
-                "timestamp": 93,
-                "temperature": 25.14
-              },
-              {
-                "timestamp": 94,
-                "temperature": 26.47
-              },
-              {
-                "timestamp": 95,
-                "temperature": 27.69
-              },
-              {
-                "timestamp": 96,
-                "temperature": 22.82
-              },
-              {
-                "timestamp": 97,
-                "temperature": 22.92
-              },
-              {
-                "timestamp": 98,
-                "temperature": 23.09
-              },
-              {
-                "timestamp": 99,
-                "temperature": 23.28
-              },
-              {
-                "timestamp": 100,
-                "temperature": 22.93
-              },
-              {
-                "timestamp": 101,
-                "temperature": 23.35
-              },
-              {
-                "timestamp": 102,
-                "temperature": 24.23
-              },
-              {
-                "timestamp": 103,
-                "temperature": 23.54
-              },
-              {
-                "timestamp": 104,
-                "temperature": 24.44
-              },
-              {
-                "timestamp": 105,
-                "temperature": 25.35
-              },
-              {
-                "timestamp": 106,
-                "temperature": 24.07
-              },
-              {
-                "timestamp": 107,
-                "temperature": 23.57
-              },
-              {
-                "timestamp": 108,
-                "temperature": 23.79
-              },
-              {
-                "timestamp": 109,
-                "temperature": 25.29
-              },
-              {
-                "timestamp": 110,
-                "temperature": 26.41
-              },
-              {
-                "timestamp": 111,
-                "temperature": 28
-              },
-              {
-                "timestamp": 112,
-                "temperature": 23.19
-              },
-              {
-                "timestamp": 113,
-                "temperature": 23.03
-              },
-              {
-                "timestamp": 114,
-                "temperature": 22.79
-              },
-              {
-                "timestamp": 115,
-                "temperature": 22.75
-              },
-              {
-                "timestamp": 116,
-                "temperature": 23.3
-              },
-              {
-                "timestamp": 117,
-                "temperature": 24.88
-              },
-              {
-                "timestamp": 118,
-                "temperature": 26.57
-              },
-              {
-                "timestamp": 119,
-                "temperature": 25
-              },
-              {
-                "timestamp": 120,
-                "temperature": 24.01
-              },
-              {
-                "timestamp": 121,
-                "temperature": 24.91
-              },
-              {
-                "timestamp": 122,
-                "temperature": 23.89
-              },
-              {
-                "timestamp": 123,
-                "temperature": 23.27
-              },
-              {
-                "timestamp": 124,
-                "temperature": 23.77
-              },
-              {
-                "timestamp": 125,
-                "temperature": 25.2
-              },
-              {
-                "timestamp": 126,
-                "temperature": 26.55
-              },
-              {
-                "timestamp": 127,
-                "temperature": 28.3
-              },
-              {
-                "timestamp": 128,
-                "temperature": 23.07
-              },
-              {
-                "timestamp": 129,
-                "temperature": 22.83
-              },
-              {
-                "timestamp": 130,
-                "temperature": 22.96
-              },
-              {
-                "timestamp": 131,
-                "temperature": 23.15
-              },
-              {
-                "timestamp": 132,
-                "temperature": 23.51
-              },
-              {
-                "timestamp": 133,
-                "temperature": 26.98
-              },
-              {
-                "timestamp": 134,
-                "temperature": 28.76
-              },
-              {
-                "timestamp": 135,
-                "temperature": 25.97
-              },
-              {
-                "timestamp": 136,
-                "temperature": 23.74
-              },
-              {
-                "timestamp": 137,
-                "temperature": 24.53
-              },
-              {
-                "timestamp": 138,
-                "temperature": 23.72
-              },
-              {
-                "timestamp": 139,
-                "temperature": 23.25
-              },
-              {
-                "timestamp": 140,
-                "temperature": 23.81
-              },
-              {
-                "timestamp": 141,
-                "temperature": 26.24
-              },
-              {
-                "timestamp": 142,
-                "temperature": 27.11
-              },
-              {
-                "timestamp": 143,
-                "temperature": 28.66
-              },
-              {
-                "timestamp": 144,
-                "temperature": 23.27
-              },
-              {
-                "timestamp": 145,
-                "temperature": 23.75
-              },
-              {
-                "timestamp": 146,
-                "temperature": 23.92
-              },
-              {
-                "timestamp": 147,
-                "temperature": 24.32
-              },
-              {
-                "timestamp": 148,
-                "temperature": 24.49
-              },
-              {
-                "timestamp": 149,
-                "temperature": 30.85
-              },
-              {
-                "timestamp": 150,
-                "temperature": 31.13
-              },
-              {
-                "timestamp": 151,
-                "temperature": 25.61
-              },
-              {
-                "timestamp": 152,
-                "temperature": 23.65
-              },
-              {
-                "timestamp": 153,
-                "temperature": 24.18
-              },
-              {
-                "timestamp": 154,
-                "temperature": 23.34
-              },
-              {
-                "timestamp": 155,
-                "temperature": 23.44
-              },
-              {
-                "timestamp": 156,
-                "temperature": 25.05
-              },
-              {
-                "timestamp": 157,
-                "temperature": 27.68
-              },
-              {
-                "timestamp": 158,
-                "temperature": 28.14
-              },
-              {
-                "timestamp": 159,
-                "temperature": 28.79
-              },
-              {
-                "timestamp": 160,
-                "temperature": 25.59
-              },
-              {
-                "timestamp": 161,
-                "temperature": 26.04
-              },
-              {
-                "timestamp": 162,
-                "temperature": 26.03
-              },
-              {
-                "timestamp": 163,
-                "temperature": 26.13
-              },
-              {
-                "timestamp": 164,
-                "temperature": 27.06
-              },
-              {
-                "timestamp": 165,
-                "temperature": 31.24
-              },
-              {
-                "timestamp": 166,
-                "temperature": 30.3
-              },
-              {
-                "timestamp": 167,
-                "temperature": 24.67
-              },
-              {
-                "timestamp": 168,
-                "temperature": 23.38
-              },
-              {
-                "timestamp": 169,
-                "temperature": 23.33
-              },
-              {
-                "timestamp": 170,
-                "temperature": 23.47
-              },
-              {
-                "timestamp": 171,
-                "temperature": 24.3
-              },
-              {
-                "timestamp": 172,
-                "temperature": 26.59
-              },
-              {
-                "timestamp": 173,
-                "temperature": 28.79
-              },
-              {
-                "timestamp": 174,
-                "temperature": 28.69
-              },
-              {
-                "timestamp": 175,
-                "temperature": 28.23
-              },
-              {
-                "timestamp": 176,
-                "temperature": 27.71
-              },
-              {
-                "timestamp": 177,
-                "temperature": 27.36
-              },
-              {
-                "timestamp": 178,
-                "temperature": 27.5
-              },
-              {
-                "timestamp": 179,
-                "temperature": 27.37
-              },
-              {
-                "timestamp": 180,
-                "temperature": 29.1
-              },
-              {
-                "timestamp": 181,
-                "temperature": 30.7
-              },
-              {
-                "timestamp": 182,
-                "temperature": 28.99
-              },
-              {
-                "timestamp": 183,
-                "temperature": 24.16
-              },
-              {
-                "timestamp": 184,
-                "temperature": 22.92
-              },
-              {
-                "timestamp": 185,
-                "temperature": 23.03
-              },
-              {
-                "timestamp": 186,
-                "temperature": 23.3
-              },
-              {
-                "timestamp": 187,
-                "temperature": 25.19
-              },
-              {
-                "timestamp": 188,
-                "temperature": 28.11
-              },
-              {
-                "timestamp": 189,
-                "temperature": 28.87
-              },
-              {
-                "timestamp": 190,
-                "temperature": 28.11
-              },
-              {
-                "timestamp": 191,
-                "temperature": 26.89
-              }
-            ]
+          "hygrometer": {
+            "temperature": 24.57,
+            "humidity": 52.5
           },
-          "thermometer2": {
-            "temperature": 51.49
+          "luxmeter": {
+            "luminance": 290
           },
-          "counter1": {
-            "count": 292
+          "pir": {
+            "count": 2
           },
-          "counter2": {
-            "count": 7
+          "co2": {
+            "concentration": 1119
           },
-          "counter3": {
-            "count": 719
+          "mic": {
+            "level": {
+              "min": 10,
+              "max": 20
+            }
+          },
+          "infrared": {
+            "width": 16,
+            "height": 12,
+            "temperature": {
+              "min": 22.65,
+              "max": 30.72,
+              "samples": [
+                22.97,
+                23,
+                23.35,
+                23.09,
+                23.5,
+                23.57,
+                23.54,
+                23.38,
+                23.79,
+                23.79,
+                24.17,
+                24.49,
+                24.52,
+                24.3,
+                24.14,
+                24.01,
+                23.12,
+                23.19,
+                23.19,
+                23.41,
+                23.6,
+                23.66,
+                23.98,
+                23.82,
+                23.73,
+                23.6,
+                24.87,
+                25.21,
+                24.77,
+                24.83,
+                24.23,
+                24.42,
+                23.57,
+                23.22,
+                23.22,
+                23.47,
+                23.69,
+                24.07,
+                24.83,
+                24.49,
+                23.82,
+                24.42,
+                27.68,
+                27.56,
+                25.97,
+                25.09,
+                24.64,
+                24.17,
+                23.66,
+                23.54,
+                23.57,
+                23.47,
+                23.63,
+                23.85,
+                25.15,
+                25.15,
+                24.17,
+                25.94,
+                26.48,
+                27.11,
+                27.05,
+                25.59,
+                24.58,
+                24.45,
+                23.79,
+                23.44,
+                23.6,
+                23.41,
+                24.01,
+                24.42,
+                25.06,
+                25.47,
+                24.11,
+                24.2,
+                25.34,
+                26.23,
+                26.83,
+                27.02,
+                25.75,
+                25.12,
+                23.76,
+                23.63,
+                23.47,
+                23.54,
+                23.82,
+                24.64,
+                26.99,
+                26.16,
+                24.58,
+                24.55,
+                24.58,
+                25.31,
+                26.16,
+                27.33,
+                26.86,
+                25.56,
+                23.6,
+                23.47,
+                23.47,
+                23.76,
+                23.92,
+                24.39,
+                26.83,
+                26.13,
+                24.87,
+                24.23,
+                23.95,
+                24.42,
+                27.43,
+                26.86,
+                27.46,
+                26.19,
+                23.63,
+                23.88,
+                23.44,
+                23.6,
+                23.76,
+                24.23,
+                25.09,
+                27.49,
+                25.59,
+                24.23,
+                23.95,
+                24.45,
+                28.19,
+                28.09,
+                28.54,
+                27.94,
+                23.5,
+                23.69,
+                23.47,
+                23.63,
+                23.76,
+                23.95,
+                24.64,
+                26.76,
+                25.94,
+                24.39,
+                24.17,
+                24.36,
+                27.49,
+                26.99,
+                29.55,
+                29.87,
+                22.97,
+                23.22,
+                23.76,
+                23.57,
+                23.6,
+                24.14,
+                24.36,
+                25.47,
+                27.46,
+                24.52,
+                24.33,
+                24.36,
+                26.48,
+                27.14,
+                27.81,
+                29.36,
+                23.31,
+                23.57,
+                23.76,
+                23.41,
+                23.41,
+                23.63,
+                24.04,
+                24.58,
+                26.64,
+                25.21,
+                24.64,
+                24.55,
+                25.53,
+                27.18,
+                28.31,
+                28.66,
+                23.19,
+                23.16,
+                23.16,
+                23.6,
+                23.79,
+                23.69,
+                23.98,
+                24.3,
+                24.93,
+                24.61,
+                24.17,
+                24.64,
+                25.72,
+                27.27,
+                28.85,
+                27.37
+              ]
+            }
           }
         }
       }
+      
 }

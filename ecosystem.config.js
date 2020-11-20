@@ -1,9 +1,12 @@
 module.exports = {
   apps : [{
     script: 'main.js',
-    name: 'infrared',
+    name: 'infrared3011',
     watch: '.',
     ignore_watch : ["node_modules", "public"],
+    env: {
+      "PORT": 3011,
+    },
   },],
 
   

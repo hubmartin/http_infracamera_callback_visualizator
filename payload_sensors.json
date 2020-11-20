@@ -1,0 +1,58 @@
+{
+    "data":
+    {
+        "frame": {
+          "sequence": 0,
+          "protocol": 2
+        },
+        "device": {
+          "profile": "SENIOR MONITOR",
+          "hardware": "R1.0",
+          "firmware": "0B3800DA"
+        },
+        "network": {
+          "imsi": 901288001061706,
+          "statistics": {
+            "spr": -78,
+            "tpr": 0,
+            "txp": 110,
+            "txt": 0,
+            "rxt": 0,
+            "cid": 939040,
+            "ecl": 0,
+            "snr": 16,
+            "efn": 6447,
+            "pci": 347,
+            "rsr": -7
+          }
+        },
+        "event": {
+          "boot": true
+        },
+        "battery": {
+          "voltage1": 4.483,
+          "voltage2": 0
+        },
+        "sensor": {
+          "hygrometer": {
+            "temperature": 24.08,
+            "humidity": 52.5
+          },
+          "luxmeter": {
+            "luminance": 12
+          },
+          "pir": {
+            "count": 0
+          },
+          "co2": {
+            "concentration": 653
+          },
+          "mic": {
+            "level": {
+              "min": 10,
+              "max": 20
+            }
+          }
+        }
+      }
+}

@@ -3,10 +3,10 @@ var app = express();
 var bodyParser = require('body-parser')
 var http = require('http').createServer(app);
 var io = require('socket.io')(http);
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 3010;
 
 /*
-curl -X POST -H "Content-Type: application/json" --data @payload1.json localhost:3010/post
+curl -X POST -H "Content-Type: application/json" --data @payload_sensors.json localhost:3010/post
 pm2 start main.js --name infra_http --watch
 */
 

@@ -1,0 +1,32 @@
+{
+    "data":
+    {
+        "frame": {
+          "sequence": 2
+        },
+        "device": {
+          "profile": "PB_PROFILE_SENIOR_MONITOR",
+          "hardware": "PB_HARDWARE_R1_0",
+          "firmware": "0B3800DA"
+        },
+        "netstat": {
+          "spr": -78,
+          "txp": 70,
+          "cid": 939040,
+          "snr": 17,
+          "efn": 6447,
+          "pci": 347,
+          "rsr": -1
+        },
+        "voltage": {
+          "battery": 4.504
+        },
+        "sensor": {
+          "temperature": 23.4,
+          "humidity": 44.87,
+          "luminance": 199,
+          "pir": 2,
+          "co2": 421
+        }
+      }
+}
